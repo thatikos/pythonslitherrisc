@@ -1,0 +1,58 @@
+{
+  "exchange_sort": {
+    "no_cache_no_pipe": {
+      "cycles": 5,
+      "instructions": 0,
+      "pipeline_stalls": 0,
+      "pipeline_flushes": 0
+    },
+    "cache_only": {
+      "cycles": 5,
+      "instructions": 0,
+      "pipeline_stalls": 0,
+      "pipeline_flushes": 0
+    },
+    "pipe_only": {
+      "cycles": 10000,
+      "instructions": 0,
+      "pipeline_stalls": 9997,
+      "pipeline_flushes": 0,
+      "instructions_per_cycle": 0.0
+    },
+    "cache_and_pipe": {
+      "cycles": 10000,
+      "instructions": 0,
+      "pipeline_stalls": 9997,
+      "pipeline_flushes": 0,
+      "instructions_per_cycle": 0.0
+    }
+  },
+  "matrix_multiply": {
+    "no_cache_no_pipe": {
+      "cycles": 5,
+      "instructions": 0,
+      "pipeline_stalls": 0,
+      "pipeline_flushes": 0
+    },
+    "cache_only": {
+      "cycles": 5,
+      "instructions": 0,
+      "pipeline_stalls": 0,
+      "pipeline_flushes": 0
+    },
+    "pipe_only": {
+      "cycles": 10000,
+      "instructions": 0,
+      "pipeline_stalls": 9997,
+      "pipeline_flushes": 0,
+      "instructions_per_cycle": 0.0
+    },
+    "cache_and_pipe": {
+      "cycles": 10000,
+      "instructions": 0,
+      "pipeline_stalls": 9997,
+      "pipeline_flushes": 0,
+      "instructions_per_cycle": 0.0
+    }
+  }
+}
